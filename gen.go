@@ -8,7 +8,7 @@
 //
 // On my test machine this creates a package which takes ~6.7 seconds
 // to compile. Passing -noinitfn to skip the generation of n init
-// functions and instead use a large map literal intialiser creates
+// functions and instead use a large map literal initaliser creates
 // a package which cannot be compiled in the 8gb of memory on this
 // system.
 package main
